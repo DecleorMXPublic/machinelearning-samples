@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace eShopDashboard.Infrastructure.Migrations.Catalog
 {
-    public partial class InitialMigration_CatalogContext : Migration
+    public partial class InitialMigration_CatalogContext : Microsoft.EntityFrameworkCore.Migrations.Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

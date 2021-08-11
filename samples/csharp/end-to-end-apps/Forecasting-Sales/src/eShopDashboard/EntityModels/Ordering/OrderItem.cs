@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
-using System.ComponentModel.DataAnnotations;
-
-namespace eShopDashboard.EntityModels.Ordering
+﻿namespace eShopDashboard.EntityModels.Ordering
 {
     public class OrderItem
     {

@@ -5,7 +5,7 @@
     <RestoreSources>
       $(RestoreSources);
     </RestoreSources>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
